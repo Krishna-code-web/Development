@@ -6,7 +6,7 @@
 // runs the javascript code.
 
 // For just an example, using http server example.
-const http = require('http');
+const http = require('http'); // Comes from node.js runtime
 
 const server = http.createServer((req, res) => {
     res.end("Hello World!");
